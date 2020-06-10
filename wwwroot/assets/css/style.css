@@ -1,0 +1,26 @@
+.link {
+    color: blue;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+}
+
+  
+div.projects {
+    overflow: scroll;
+    height: 500px;
+    scroll-behavior: auto;
+}
+input.btn.btn-primary.btn-lg {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.jumbotron h1 {
+    color: dodgerblue;
+}
+.jumbotron {
+    display: none;
+}

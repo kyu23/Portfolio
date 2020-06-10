@@ -22,7 +22,7 @@ namespace Portfolio
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
             app.UseDeveloperExceptionPage(); //puts error message on the browser (took away if enclosing statement)
-
+            app.UseStaticFiles();
             app.UseMvc(); // have to make UseMvc the last one!!
             
         }
